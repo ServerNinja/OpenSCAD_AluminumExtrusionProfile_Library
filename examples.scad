@@ -2,10 +2,11 @@ $fn = 100;
 
 include <AluminumExtrusionProfile.scad>
 // 2020 Extrusion Profile
-linear_extrude(10) 
+linear_extrude(100) 
   translate([0, 0, 0])
-    2020_extrusion_profile(slot = "t");
+    2020_extrusion_profile(slot = "v");
 
+/*
 linear_extrude(10) 
   translate([0, 40, 0])
     2040_extrusion_profile(slot = "t");
@@ -29,3 +30,4 @@ linear_extrude(10)
 linear_extrude(10) 
   translate([0, -100, 0])
     4040_extrusion_profile(slot = "v");
+*/
